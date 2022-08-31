@@ -11,14 +11,14 @@ struct TitleBar: View {
     var body: some View {
         HStack {
             VStack(alignment: .leading){
-                Text("Tesla")
+                Text("Tesla").font(.headline)
                 HStack {
                     Image(systemName: "battery.75")
                     Text("187 KM")
                 }
             }
             Spacer()
-            Image(systemName: "person").frame(width: 50, height: 50).clipShape(Circle())
+            Image(systemName: "person.fill").frame(width: 50, height: 50).clipShape(Circle())
                 .shadow(radius: 10)
                 .overlay(Circle().stroke(Color.gray, lineWidth: 1))
             
