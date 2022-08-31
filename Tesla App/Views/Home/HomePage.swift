@@ -14,9 +14,14 @@ struct HomePage: View {
             Spacer()
                     .frame(height: 26)
             Image("model3").frame(width: 314 )
+            Spacer()
+                .frame(height: 28.5)
+            MiddleTabView().frame(width: 330, height: 84)
+            Spacer()
+                    .frame(height: 26)
         }.frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .topLeading)
-        Spacer()
-            .frame(height: 28.5)
+        
+        
     }
 }
 
