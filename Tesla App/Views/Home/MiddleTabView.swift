@@ -8,13 +8,22 @@
 import SwiftUI
 
 struct MiddleTabView: View {
+    let images :[String]=["lock.fill","fanblades.fill","bolt.fill", "car.circle"];
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            RoundedRectangle(cornerRadius: 50)
+                    .foregroundColor(.white)
+            HStack(spacing: 50){
+                ForEach(images, id: \.self) { image in
+                    Image(systemName:image)
+                               }
+            }.frame(width: 330, height: 84)
+        }.shadow(color: .gray, radius: 5, x: 0, y: 5)
     }
 }
 
 struct MiddleTabView_Previews: PreviewProvider {
     static var previews: some View {
-        MiddleTabView()
+        MiddleTabView().previewLayout(.fixed(width: 330, height: 84))
     }
 }
