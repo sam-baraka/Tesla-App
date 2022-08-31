@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A20743A828BF5F7F0027422C /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20743A728BF5F7F0027422C /* HomePage.swift */; };
 		A20743AC28BF5FFB0027422C /* TitleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20743AB28BF5FFB0027422C /* TitleBar.swift */; };
+		A20743B128BF70440027422C /* MiddleTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20743B028BF70440027422C /* MiddleTabView.swift */; };
 		A274AF3728BC8A8900F0B4AD /* Tesla_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A274AF3628BC8A8900F0B4AD /* Tesla_AppApp.swift */; };
 		A274AF3928BC8A8900F0B4AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A274AF3828BC8A8900F0B4AD /* ContentView.swift */; };
 		A274AF3B28BC8A8E00F0B4AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A274AF3A28BC8A8E00F0B4AD /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		A20743A728BF5F7F0027422C /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		A20743AB28BF5FFB0027422C /* TitleBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleBar.swift; sourceTree = "<group>"; };
+		A20743B028BF70440027422C /* MiddleTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleTabView.swift; sourceTree = "<group>"; };
 		A274AF3328BC8A8900F0B4AD /* Tesla App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tesla App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A274AF3628BC8A8900F0B4AD /* Tesla_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tesla_AppApp.swift; sourceTree = "<group>"; };
 		A274AF3828BC8A8900F0B4AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 			children = (
 				A20743A728BF5F7F0027422C /* HomePage.swift */,
 				A20743AB28BF5FFB0027422C /* TitleBar.swift */,
+				A20743B028BF70440027422C /* MiddleTabView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				A20743AC28BF5FFB0027422C /* TitleBar.swift in Sources */,
 				A274AF3928BC8A8900F0B4AD /* ContentView.swift in Sources */,
 				A20743A828BF5F7F0027422C /* HomePage.swift in Sources */,
+				A20743B128BF70440027422C /* MiddleTabView.swift in Sources */,
 				A274AF3728BC8A8900F0B4AD /* Tesla_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
